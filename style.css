@@ -33,7 +33,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -140,7 +140,7 @@ li > label {
   width: 226px;
 }
 li >    .task {
-  width: 226px
+  width: 226px;
 }
 li > button.delete:hover {
   color: #CF2323;
@@ -156,18 +156,18 @@ button.delete image-remove:hover {
 
 /* Completed */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 ul .editMode input[type="text"] {
-  display: none
+  display: none;
 }
 
 .editMode input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 #todo-tasks .editMode label {

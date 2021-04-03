@@ -17,14 +17,13 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px) { 
 
   .promo { 
     text-align: center;
 }
 
 }
- 
 .main-element {
   display: block;
   width: 500px;
@@ -39,7 +38,7 @@
   display: flex;
 }
 #todo-tasks {
-  margin: 0;
+  margin:0;
   padding: 0px;
   list-style-type: none;
 }
@@ -161,15 +160,15 @@ button.delete image-remove:hover {
 }
 
 /* Edit Task */
-ul .editMode input[type="text"] {
+ul li input[type="text"] {
   display: none;
 }
 
-.editMode input[type="text"] {
+ul .editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-#todo-tasks .editMode label {
+ul li.editMode label {
   display: none;
 }

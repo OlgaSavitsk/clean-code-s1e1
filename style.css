@@ -24,7 +24,7 @@
 }
 
 }
-
+ 
 .main-element {
   display: block;
   width: 500px;
@@ -39,15 +39,15 @@
   display: flex;
 }
 #todo-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
   list-style-type: none;
 }
 .todo-task__item .todo__title {
-  list-style:none;
+  list-style: none;
 }
 #new-task button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -162,14 +162,14 @@ button.delete image-remove:hover {
 
 /* Edit Task */
 ul .editMode input[type="text"] {
-  display:none
+  display: none
 }
 
 .editMode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 #todo-tasks .editMode label {
-  display:none;
+  display: none;
 }

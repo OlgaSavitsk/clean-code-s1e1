@@ -46,7 +46,7 @@
 .title {
   list-style: none;
 }
-#new-task button{
+.new-task__button{
   outline: none;
 }
 button {
@@ -57,6 +57,7 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 button:hover {
   color: #3a3A3a;
@@ -146,15 +147,21 @@ label[for="new-task"] {
 }
 
 /* Edit Task */
-.task-block .task__item .task__input {
+.task-block 
+.task__item 
+.task__input {
   display: none;
 }
 
-.task-block .editMode .task__input {
+.task-block 
+.editMode 
+.task__input {
   display: inline-block;
   width: 224px;
 }
 
-.task-block .editMode .task {
+.task-block 
+.editMode 
+.task {
   display: none;
 }

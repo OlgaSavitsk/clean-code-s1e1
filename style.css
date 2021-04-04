@@ -13,7 +13,7 @@
 .promo__image {
   width: 100%;
 }
-.promo .more-inf {
+.promo .promo__link {
   font-family: fantasy, cursive;
 }
 
@@ -24,7 +24,7 @@
 }
 
 }
-.main-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.task__wrapper {
   display: flex;
 }
 #todo-tasks {

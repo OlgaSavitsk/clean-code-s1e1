@@ -12,7 +12,7 @@
     </section>
     <section class="main">
       <div id="add-task">
-      <label lass="task" for="new-task">Add Item</label>
+      <label for="new-task">Add Item</label>
       <div class="task__wrapper">
         <input id="new-task" class="task__input" type="text">
         <button class="new-task__button">Add</button>
@@ -30,7 +30,7 @@
         <li class="task__item editMode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task__input">
+          <input type="text" value="Go Shopping" class="editMode__input task__input">
           <button class="edit">Save</button>
           <button class="delete">
             <img class="image-remove" src="./remove.svg" alt="button remove"></button>
@@ -40,7 +40,7 @@
       <ul id="completed-tasks" class="task-block">
         <li class="task__item completed-tasks__item">
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
+          <label class="task completed-tasks__label">See the Doctor</label>
           <input type="text" class="task__input">
           <button class="edit">Edit</button>
           <button class="delete"><img class="image-remove" src="./remove.svg" alt="button remove"></button>

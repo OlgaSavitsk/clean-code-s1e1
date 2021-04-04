@@ -100,7 +100,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
-.todo-task__item {
+.task__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -109,22 +109,7 @@ label[for="new-task"] {
   justify-content: space-between;
   align-items: center;
 }
-.completed-tasks__item{
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.editMode{
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 li > * {
   vertical-align: middle;
 }
@@ -160,15 +145,15 @@ button.delete image-remove:hover {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.task-block li input[type="text"] {
   display: none;
 }
 
-ul .editMode input[type="text"] {
+.task-block .editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.task-block li.editMode label {
   display: none;
 }

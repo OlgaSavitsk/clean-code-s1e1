@@ -6,28 +6,28 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
   <body class="page">
-    <div class="promo">
+    <section class="promo">
       <img class="promo__image" src="./eisenhower-matrix.jpg">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-element">
-      <p id="add-task">
+    </section>
+    <section class="main-element">
+      <div id="add-task">
       <label for="new-task">Add Item</label>
       <div class="task-wrapper">
         <input id="new-task"class="task" type="text">
         <button class="new-task__button">Add</button>
       </div>
-      </p>
+      </div>
       <h3 class="title">Todo</h3>
-      <ul id="todo-tasks">
-        <li class="todo-task__item">
+      <ul id="todo-tasks" class="task-block">
+        <li class="task__item todo-task__item">
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete"><img class="image-remove" src="./remove.svg"></button>
         </li>
-        <li class="editMode">
+        <li class="task__item editMode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
@@ -37,8 +37,8 @@
         </li>
       </ul>
       <h3 class="title">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="completed-tasks__item">
+      <ul id="completed-tasks" class="task-block">
+        <li class="task__item completed-tasks__item">
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
@@ -46,7 +46,7 @@
           <button class="delete"><img class="image-remove" src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
